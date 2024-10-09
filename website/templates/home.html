@@ -1,0 +1,85 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+  %}
+
+  <!-- Main Content -->
+
+
+  <main class="container-fluid px-5">
+    <section class="row vh-100 d-flex align-items-center">
+        <div class="col-md-6 text-center text-md-left">
+            <div class="px-4">
+                <h1 class="display-4 font-weight-bold uppercase py-5">Kidney Tumour Detection System</h1>
+                <ul class="list-unstyled my-4">
+                    <li>✅ Accuracy</li>
+                    <li>✅ Open Source</li>
+                    <li>✅ Kidney Classification</li>
+                    <li>✅ Automated Reporting</li>
+                </ul>
+                <button class="btn btn-success px-4 py-2">Request Reporting</button>
+            </div>
+        </div>
+        <div class="col-md-6 text-center">
+            <!-- Placeholder for 3D model or image -->
+            <img src="/static/img/kidney_image.png" alt="Kidney" class="img-fluid">
+        </div>
+    </section>
+    <div class="pink__gradient w-25 h-25 absolute -z-0" style="left: 40%;"></div>
+    <div class="aqua__gradient w-25 h-25 absolute -z-0" style="bottom: 40%;"></div>
+</main>
+<!-- Main Content End -->
+  
+<!-- Top Feature Start -->
+<div class="container-fluid top-feature py-5 pt-lg-0">
+  <div class="container py-5 pt-lg-0">
+      <div class="row gx-0">
+          <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+              <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                  <div class="d-flex">
+                      <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                          <i class="fa fa-check text-primary"></i>
+                      </div>
+                      <div class="ps-3">
+                          <h4>High Accuracy</h4>
+                          <span>An overall accuracy of nearly 99%</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+              <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                  <div class="d-flex">
+                      <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                          <i class="fa fa-clock text-primary"></i>
+                      </div>
+                      <div class="ps-3">
+                          <h4>24/7 Availability</h4>
+                          <span>Cloud hosted and guranteed to provide 24/7 service</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+              <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                  <div class="d-flex">
+                      <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                          <i class="fa fa-users text-primary"></i>
+                      </div>
+                      <div class="ps-3">
+                          <h4>User Friendly</h4>
+                          <span>A modern responsive web-interface that can be easily used by any User</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="about"></div>
+  </div>
+</div>
+<!-- Top Feature End -->
+
+  
+  
+  
+  
+  
+  {% endblock %}
